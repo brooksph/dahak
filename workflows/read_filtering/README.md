@@ -61,6 +61,7 @@ docker run -v /home/ubuntu/data:/data -it quay.io/biocontainers/trimmomatic:0.36
 
 #### Now run fastqc on the trimmed data
 ```
+mkdir qc
 mkdir qc/after_trim
 cd qc/after_trim
 ```
