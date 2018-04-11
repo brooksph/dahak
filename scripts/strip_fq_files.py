@@ -15,3 +15,4 @@ if __name__ == '__main__':
     counter = collections.Counter(fq_list)
     for k,v in counter.items():
         print(k + " " + str(v))
+        
